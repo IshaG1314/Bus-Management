@@ -1,0 +1,403 @@
+
+#include<iostream>
+using namespace std;
+
+class bus_mgmt
+{
+public:
+int traveller_id[25];
+string traveller_name[25];
+string traveller_luggage_type[25];
+string traveller_type[25];
+string traveller_gender[25];
+string destination_location[25];
+string pick_up_location[25];
+string date_of_journey[25];
+
+bus_mgmt(){
+data1();
+data2();
+data3();
+data4();
+data5();
+data6();
+data7();
+data8();
+data9();
+data10();
+data11();
+data12();
+data13();
+data14();
+data15();
+data16();
+data17();
+data18();
+data19();
+data20();
+
+}
+    void data1(){
+traveller_id[0]=1 ;
+     traveller_name[0] = "Jake" ;
+traveller_luggage_type[0] = "trolly Bag";
+traveller_type[0] = "Adult";
+traveller_gender[0] = "male";
+destination_location[0] = "Mumbai";
+pick_up_location[0] = "Hydrabad";
+date_of_journey[0]="Today";
+
+    }
+
+    void data2(){
+     traveller_id[1] = 2 ;
+traveller_name[1] = "Mina" ;
+traveller_luggage_type[1] = "trolly bag";
+traveller_type[1] = "adult";
+traveller_gender[1] = "female";
+destination_location[1] = "Lucknow";
+pick_up_location[1] = "Ahmedabad";
+date_of_journey[1] = "7/09/21";
+
+    }
+   
+    void data3(){
+     traveller_id[2] = 3 ;
+traveller_name[2] = "Rekha" ;
+traveller_luggage_type[2] = "suitcase";
+traveller_type[2] = "Adult";
+traveller_gender[2] = "female";
+destination_location[2] = "Merut";
+pick_up_location[2] = "Jaipur";
+date_of_journey[2] = "4/08/21";
+
+    }
+   
+    void data4(){
+     traveller_id[3] = 4 ;
+traveller_name[3] = "dharti" ;
+traveller_type[3] = "kid";
+traveller_gender[3] = "female";
+destination_location[3] = "Merut";
+pick_up_location[3] = "Jaipur";
+traveller_luggage_type[3]="trolly bag";
+date_of_journey[2] = "24/07/21";
+
+    }
+   
+    void data5(){
+    traveller_id[4] = 5 ;
+    traveller_name[4] = "Mehul" ;
+traveller_luggage_type[4] = " ";
+traveller_type[4] = "Adult";
+traveller_gender[4] = "male";
+destination_location[4] = "Merut";
+pick_up_location[4] = "Jaipur";
+date_of_journey[4]="24/07/21";
+
+
+    }
+   
+void data6(){
+traveller_id[5]=6 ;
+     traveller_name[5] = "Jay" ;
+traveller_luggage_type[5] = "trolly Bag";
+traveller_type[5] = "Adult";
+traveller_gender[5] = "male";
+destination_location[5] = "Melbourne";
+pick_up_location[5] = "Mumbai";
+date_of_journey[5]="Today";
+
+    }
+    void data7(){
+traveller_id[6]=7 ;
+     traveller_name[6] = "Glaze" ;
+traveller_luggage_type[6] = "duffle Bag";
+traveller_type[6] = "Adult";
+traveller_gender[6] = "female";
+destination_location[6] = "Hydrabad";
+pick_up_location[6] = "califronia";
+date_of_journey[6]="tomorrow";
+
+    }
+void data8(){
+    traveller_id[7]=8 ;
+    traveller_name[7] = "varun" ;
+    traveller_luggage_type[7] = "trekking Bag";
+    traveller_type[7] = "kid";
+    traveller_gender[] = "male";
+    destination_location[7] = "Manali";
+    pick_up_location[7] = "Surat";
+    date_of_journey[7]="23/08/21";
+    }
+
+void data9(){
+traveller_id[8]=9 ;
+     traveller_name[8] = "Vidhi" ;
+traveller_luggage_type[8] = "Trolly Bag";
+traveller_type[8] = "Adult";
+traveller_gender[8] = "female";
+destination_location[8] = "Jodhpur";
+pick_up_location[8] = "Kutch";
+date_of_journey[8]="04/08/21";
+    }
+
+void data10(){
+traveller_id[9]=10 ;
+     traveller_name[9]] = "Aaron" ;
+traveller_luggage_type[9] = "duffle Bag";
+traveller_type[9] = "Adult";
+traveller_gender[9] = "male";
+destination_location[9] = "Jodhpur";
+pick_up_location[9] = "Kutch";
+date_of_journey[9]="04/08/21";
+    }
+
+void data11(){
+traveller_id[10]=11 ;
+     traveller_name[10] = "swetha" ;
+traveller_luggage_type[10] = "trolly Bag";
+traveller_type[10] = "Adult";
+traveller_gender[10] = "female";
+destination_location[10] = "Hydrabad";
+pick_up_location[10] = "ahmedabad";
+date_of_journey[10]="Today";
+
+    }
+
+void data12(){
+traveller_id[11]=12 ;
+     traveller_name[11] = "Kabir" ;
+traveller_luggage_type[11] = "trekking Bag";
+traveller_type[11] = "Adult";
+traveller_gender[11] = "male";
+destination_location[11] = "Manali";
+pick_up_location[11] = "mumbai";
+date_of_journey[11]="25/07/21";
+
+    }
+
+void data13(){
+traveller_id[12]=13 ;
+     traveller_name[12] = "Dev" ;
+traveller_luggage_type[12] = "duffle Bag";
+traveller_type[12] = "Adult";
+traveller_gender[12] = "male";
+destination_location[12] = "dehradun";
+pick_up_location[12] = "ahmedabad";
+date_of_journey[12]="23/07/21";
+
+    }
+
+void data14(){
+traveller_id[13]=14 ;
+     traveller_name[13] = "Inej" ;
+traveller_luggage_type[13] = "trolly Bag";
+traveller_type[13] = "Adult";
+traveller_gender[13] = "female";
+destination_location[13] = "East Ravka";
+pick_up_location[13] = "Ketterdam";
+date_of_journey[13]="24/08/21";
+
+    }
+
+void data15(){
+    traveller_id[14]=15 ;
+    traveller_name[14] = "Kirigan" ;
+    traveller_luggage_type[14] = "trolly Bag";
+    traveller_type[14] = "Adult";
+    traveller_gender[14] = "male";
+    destination_location[14] = "little palace";
+    pick_up_location[14] = "East Ravka";
+    date_of_journey[14]="Today";
+
+    }
+
+void data16(){
+traveller_id[15]=16 ;
+     traveller_name[15] = "Alina" ;
+traveller_luggage_type[15] = "duffle Bag";
+traveller_type[15] = "Adult";
+traveller_gender[15] = "female";
+destination_location[15] = "little palace";
+pick_up_location[15] = "East Ravka";
+date_of_journey[15]="Today";
+
+    }
+
+void data17(){
+traveller_id[16]=17 ;
+     traveller_name[16] = "Alisha" ;
+traveller_luggage_type[16] = "trekking Bag";
+traveller_type[16] = "Adult";
+traveller_gender[16] = "female";
+destination_location[16] = "lucknow";
+pick_up_location[16] = "delhi";
+date_of_journey[16]="22/08/21";
+
+    }
+
+void data18(){
+    traveller_id[17]=18 ;
+    traveller_name[17] = "Aisha" ;
+    traveller_luggage_type[17] = "trolly Bag";
+    traveller_type[17] = "Adult";
+    traveller_gender[17] = "female";
+    destination_location[17] = "lucknow";
+    pick_up_location[17] = "delhi";
+    date_of_journey[17]="Today";
+
+    }
+
+void data19(){
+traveller_id[18]=19 ;
+     traveller_name[18] = "Serkan" ;
+traveller_luggage_type[18] = "trolly Bag";
+traveller_type[18] = "Adult";
+traveller_gender[18] = "male";
+destination_location[18] = "Mumbai";
+pick_up_location[18] = "istanbul";
+date_of_journey[18]="25/07/21";
+
+    }
+
+void data20(){
+traveller_id[19]=20 ;
+     traveller_name[19] = "Eda" ;
+traveller_luggage_type[19] = "Duffle Bag";
+traveller_type[19] = "Adult";
+traveller_gender[19] = "female";
+destination_location[19] = "Mumbai";
+pick_up_location[19] = "istanbul";
+date_of_journey[19]="25/07/21";
+
+    }
+
+
+    void display( int i ){
+cout<<"Traveller Id = "<<traveller_id[i]<<endl;
+    cout<<"Traveller Name = "<<traveller_name[i]<<endl;
+    cout<<"Traveller Luggage Type= "<<traveller_luggage_type[i]<<endl;
+    cout<<"Traveller Type= "<<traveller_type[i]<<endl;
+cout<<"Traveller Gender = "<<traveller_gender[i]<<endl;
+cout<<"Destination = "<<destination_location[i]<<endl;
+cout<<"Pickup Location = "<<pick_up_location[i]<<endl;
+cout<<"Date of Journey = "<<date_of_journey[i]<<endl;
+cout<<endl;
+cout<<endl;
+cout<<"---------------------------------------------------------"<<endl;
+}
+};
+
+class A:public bus_mgmt{
+public:
+void first_c(){
+for(int i=0;i<6;i++){
+if (destination_location[i]=="Lucknow"){
+  display(i);
+   }
+}
+}
+
+void second_c(){
+for(int i=0;i<6;i++){
+if( traveller_luggage_type[i]=="trolly bag")
+{
+display(i);
+}
+}
+}
+
+void third_c(){
+for(int i=0;i<6;i++)
+{
+if( traveller_type[i]=="Adult")
+{
+display(i);
+}
+}
+}
+
+void fourth_c(){
+for(int i=0;i<6;i++)
+{
+if( traveller_gender[i]=="female")
+{
+display(i);
+}
+}
+}
+
+void fifth_c(){
+for(int i=0;i<6;i++){
+if(pick_up_location[i]=="Ahmedabad")
+{
+display(i);
+}
+}
+}
+
+void sixth_c(){
+for(int i=0;i<6;i++){
+if(date_of_journey[i]=="Today")
+{
+display(i);
+}
+}
+}
+
+};
+
+int main()
+{
+//system("color b0");
+A obj;
+while(1){
+
+    cout<<"====================================================================================="<<endl;
+    cout<<"\t\t\t\t\t MENU "<<endl;
+    cout<<"====================================================================================="<<endl<<endl;
+    cout<<"1. Display all the travellers whose destination_location is "Lucknow" ."<<endl;
+    cout<<"2. Display all the travellers whose luggage type is "trolly bag" ."<<endl;
+    cout<<"3. Display all the travellers who are adults ."<<endl;
+    cout<<"4. Display all the travellers who are females ."<<endl;
+    cout<<"5. Display all the travllers whose pickup loaction is "ahmedabad" ."<<endl;
+    cout<<"6. Display all the travellers who are travelling today ."<<endl<<endl;
+   
+int x;
+    cout<<"Enter your choice : ";
+    cin>>x;
+    cout<<endl;
+   
+    switch(x)
+    {
+    case 1 :
+    obj.first_c();
+    break;
+   
+    case 2 :
+    obj.second_c();
+    break;
+   
+    case 3 :
+    obj.third_c();
+    break;
+
+    case 4 :
+    obj.fourth_c();
+    break;
+
+    case 5 :
+    obj.fifth_c();
+    break;
+
+    case 6 :
+    obj.sixth_c();
+    break;
+
+    default :
+    cout<<"*****Wrong Choice*****";
+}
+}
+return 0;
+}
